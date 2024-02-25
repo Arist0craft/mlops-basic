@@ -1,0 +1,6 @@
+apache-airflow
+apache-airflow-providers-amazon
+apache-airflow-providers-postgres
+mlflow
+pandas==2.1.4
+scikit-learn

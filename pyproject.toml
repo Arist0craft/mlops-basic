@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mlops"
+version = "0.1.0"
+description = ""
+authors = ["Arist0craft <dimnktn@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+jupyter = "^1.0.0"
+scikit-learn = "^1.4.1.post1"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.27"
+pyarrow = "^15.0.0"
+pandas = "2.1.*"
+
+
+[tool.poetry.group.dev.dependencies]
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
