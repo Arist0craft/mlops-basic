@@ -58,6 +58,7 @@ dag = DAG(
     description="Обучение моделей и трекинг с помощью MLFlow",
     start_date=days_ago(2),
     schedule="30 4 * * *",
+    catchup=False,
     default_args=default_args,
 )
 
